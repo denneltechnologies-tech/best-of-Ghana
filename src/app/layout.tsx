@@ -1,29 +1,20 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { BottomNav } from "@/components/BottomNav";
 
 export const metadata: Metadata = {
-  title: "Best of Ghana | Curated Tourism Guide",
+  title: "Explore Ghana | Best of Ghana Guide",
   description:
-    "An all-in-one curated tourism guide for DIY travellers in Ghana. Discover cultural monuments, beach resorts, fine dining, and verified transport options.",
-  keywords: [
-    "Ghana travel",
-    "Accra tourism",
-    "Cape Coast Castle",
-    "Ghana resorts",
-    "Ghana restaurants",
-    "Ghana nightlife",
-    "Getting around Ghana",
-  ],
-  authors: [{ name: "Best of Ghana Editorial Team" }],
+    "An all-in-one curated tourism guide for DIY travellers in Ghana. Heritage sites, beach resorts, nightlife, dining, and verified transport.",
+  manifest: "/manifest.webmanifest",
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0B6623",
+  themeColor: "#C2410C",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({
@@ -33,22 +24,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex min-h-screen flex-col bg-ghana-surface text-neutral-900 antialiased selection:bg-ghana-gold/30 selection:text-ghana-dark">
-        {/* Skip to content link for keyboard accessibility */}
-        <a
-          href="#main-content"
-          className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded-md focus:bg-ghana-dark focus:px-4 focus:py-2 focus:text-white focus:shadow-lg focus:outline-none"
+      <body className="flex min-h-screen justify-center bg-black/10 dark:bg-black/60">
+        <div
+          id="app"
+          className="flex min-h-screen w-full max-w-[460px] flex-col bg-[var(--bg)] shadow-2xl text-[var(--ink)] relative"
         >
-          Skip to main content
-        </a>
-
-        <Navbar />
-        <main id="main-content" className="flex-1">
-          {children}
-        </main>
-        <Footer />
+          <main id="m" className="flex-1 flex flex-col gap-4 p-5 pb-6">
+            {children}
+          </main>
+          <BottomNav />
+        </div>
       </body>
     </html>
   );
 }
-

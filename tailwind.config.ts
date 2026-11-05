@@ -9,16 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ghana: {
-          gold: "#D4AF37",
-          goldHover: "#B89628",
-          green: "#0B6623",
-          greenDark: "#084719",
-          red: "#C41E3A",
-          dark: "#1A1A1A",
-          surface: "#FDFBF7",
-          sand: "#F4EDE2",
-          border: "#E6DEC5",
+        app: {
+          bg: "var(--bg)",
+          card: "var(--card)",
+          ink: "var(--ink)",
+          mut: "var(--mut)",
+          line: "var(--line)",
+          acc: "var(--acc)",
+          grn: "var(--grn)",
         },
       },
     },
@@ -26,4 +24,3 @@ const config: Config = {
   plugins: [],
 };
 export default config;
-
