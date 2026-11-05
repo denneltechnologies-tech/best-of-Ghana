@@ -184,3 +184,4 @@ describe("PRD Functional Requirements Acceptance Suite", () => {
     expect(events[0].targetId).toBe("dest-cape-coast-castle");
   });
 });
+

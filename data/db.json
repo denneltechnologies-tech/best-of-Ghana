@@ -97,7 +97,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-elmina-castle",
@@ -146,7 +146,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-manhyia-palace",
@@ -252,7 +252,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-dubois-centre",
@@ -606,7 +606,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-safari-valley",
@@ -748,7 +748,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-labadi-beach-hotel",
@@ -796,7 +796,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-la-palm-royal",
@@ -939,7 +939,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-kakum-national-park",
@@ -988,7 +988,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-shai-hills",
@@ -1037,7 +1037,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-kozo",
@@ -1085,7 +1085,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-santoku",
@@ -1228,7 +1228,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-chop-bar",
@@ -1276,7 +1276,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-breakfast-to-breakfast",
@@ -1371,7 +1371,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-bloom-bar",
@@ -1419,7 +1419,7 @@
       ],
       "createdAt": "2026-11-04T09:00:00Z",
       "updatedAt": "2026-11-04T09:00:00Z",
-      "verifiedAt": "2026-11-05T09:03:01.902Z"
+      "verifiedAt": "2026-11-05T09:03:53.793Z"
     },
     {
       "id": "dest-front-back",
@@ -1734,11 +1734,11 @@
       }
     },
     {
-      "id": "audit-1793869381902",
+      "id": "audit-1793869433793",
       "actor": "test_admin",
       "entity": "system",
       "action": "publish",
-      "timestamp": "2026-11-05T09:03:01.902Z",
+      "timestamp": "2026-11-05T09:03:53.793Z",
       "changedFields": {
         "publishedCount": 14,
         "note": "Sample verified records published for immediate experience while preserving draft model"

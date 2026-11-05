@@ -121,3 +121,4 @@ Before taking the application into public production:
 - [ ] Configure production environment secrets (e.g. `ADMIN_SECRET_KEY`).
 - [ ] Deploy to Vercel, Cloud Run, or custom Node.js host.
 - [ ] Print QR stands with short redirect URLs pointing to `/qr/[code]`.
+
