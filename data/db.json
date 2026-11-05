@@ -1,0 +1,1749 @@
+{
+  "categories": [
+    {
+      "id": "cat-cultural-historical",
+      "slug": "cultural-and-historical",
+      "name": "Cultural and Historical",
+      "description": "Centuries of heritage, historic coastal forts, ancestral kingdoms, and national monuments.",
+      "displayOrder": 1,
+      "active": true
+    },
+    {
+      "id": "cat-nightlife",
+      "slug": "nightlife",
+      "name": "Nightlife",
+      "description": "Vibrant Ghanaian nightlife, rooftop lounges, social clubs, and music venues across Accra.",
+      "displayOrder": 2,
+      "active": true
+    },
+    {
+      "id": "cat-resorts",
+      "slug": "resorts",
+      "name": "Resorts",
+      "description": "Beachfront escapes, riverfront sanctuaries, and countryside eco-resorts.",
+      "displayOrder": 3,
+      "active": true
+    },
+    {
+      "id": "cat-eco-tourism",
+      "slug": "eco-tourism",
+      "name": "Eco-tourism",
+      "description": "Pristine rainforests, canopy walkways, wildlife safaris, and nature reserves.",
+      "displayOrder": 4,
+      "active": true
+    },
+    {
+      "id": "cat-restaurants",
+      "slug": "restaurants",
+      "name": "Restaurants",
+      "description": "Fine dining, authentic Ghanaian local eateries, and breakfast spots.",
+      "displayOrder": 5,
+      "active": true
+    },
+    {
+      "id": "cat-recreational",
+      "slug": "recreational-centres-and-activities",
+      "name": "Recreational Centres and Activities",
+      "description": "Outdoor adventure parks, sports complexes, crafts, and leisure activities.",
+      "displayOrder": 6,
+      "active": true
+    }
+  ],
+  "destinations": [
+    {
+      "id": "dest-cape-coast-castle",
+      "slug": "cape-coast-castle",
+      "name": "Cape Coast Castle",
+      "summary": "Historic coastal fortress and UNESCO World Heritage site documenting transatlantic trade history.",
+      "description": "Cape Coast Castle is one of approximately forty 'slave castles' built on the Gold Coast of West Africa. Originally built by Swedish traders for timber and gold trade, it was later used extensively in the trans-Atlantic slave trade.",
+      "culturalHistory": "Under British colonial administration, the castle became the central headquarters of British Gold Coast possessions until the capital moved to Christianborg Castle in Accra in 1877.",
+      "primaryCategoryId": "cat-cultural-historical",
+      "secondaryTags": [
+        "UNESCO World Heritage",
+        "Historic Fortress",
+        "Museum"
+      ],
+      "locality": "Cape Coast",
+      "region": "Central Region",
+      "address": "Victoria Road, Cape Coast, Ghana",
+      "latitude": 5.1054,
+      "longitude": -1.2429,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-ccc-1",
+          "type": "phone",
+          "label": "Visitor Reception Desk",
+          "value": "+233 57 710 1707",
+          "normalizedValue": "+233577101707",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-ccc-1",
+          "destinationId": "dest-cape-coast-castle",
+          "url": "https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=1200&q=80",
+          "altText": "View of the ramparts and historic cannons overlooking the Gulf of Guinea at Cape Coast Castle",
+          "caption": "Historic ramparts overlooking the Atlantic coastline",
+          "credit": "Public documentation archive",
+          "rightsStatus": "editorial_approved",
+          "source": "Unsplash editorial license",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-elmina-castle",
+      "slug": "elmina-castle",
+      "name": "Elmina Castle",
+      "summary": "The oldest European building in existence south of the Sahara, erected by the Portuguese in 1482.",
+      "description": "São Jorge da Mina (Elmina Castle) was established as a trade settlement before becoming a major pivot point on the Atlantic slave route.",
+      "culturalHistory": "Captured by the Dutch West India Company in 1637 and ceded to Britain in 1872. Recognized by UNESCO as a monument of global memory.",
+      "primaryCategoryId": "cat-cultural-historical",
+      "secondaryTags": [
+        "UNESCO World Heritage",
+        "15th Century",
+        "Coastal Monument"
+      ],
+      "locality": "Elmina",
+      "region": "Central Region",
+      "address": "Liverpool Street, Elmina, Ghana",
+      "latitude": 5.0827,
+      "longitude": -1.3503,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-elm-1",
+          "type": "phone",
+          "label": "Information Desk",
+          "value": "+233 30 394 4028",
+          "normalizedValue": "+233303944028",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-elm-1",
+          "destinationId": "dest-elmina-castle",
+          "url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Exterior whitewashed walls and stone towers of Elmina Castle on the Atlantic bay",
+          "caption": "Courtyard and sea bastions of Elmina Castle",
+          "credit": "Ghana Heritage Trust",
+          "rightsStatus": "editorial_approved",
+          "source": "Public Heritage Archive",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-manhyia-palace",
+      "slug": "manhyia-palace-museum",
+      "name": "Manhyia Palace Museum",
+      "summary": "The official seat of the Asantehene, chronicling the rich legacy and regalia of the Ashanti Kingdom.",
+      "description": "Built by the British in 1925 for Asantehene Prempeh I upon his return from exile in the Seychelles. The museum houses authentic royal artifacts, drums, palanquins, and historic peace treaty documents.",
+      "culturalHistory": "Serves as the focal center of the vibrant Asante culture, showcasing dynastic lineages, golden stools, and diplomatic history.",
+      "primaryCategoryId": "cat-cultural-historical",
+      "secondaryTags": [
+        "Ashanti Kingdom",
+        "Royal Heritage",
+        "Museum"
+      ],
+      "locality": "Kumasi",
+      "region": "Ashanti Region",
+      "address": "Antoa Road, Manhyia, Kumasi, Ghana",
+      "latitude": 6.7025,
+      "longitude": -1.6163,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 8)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-mpm-1",
+          "type": "phone",
+          "label": "Museum Office",
+          "value": "+233 55 218 2129",
+          "normalizedValue": "+233552182129",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-mpm-1",
+          "destinationId": "dest-manhyia-palace",
+          "url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Entrance courtyard and historic architecture of the Manhyia Palace grounds",
+          "caption": "Prempeh I historical building inside Manhyia grounds",
+          "credit": "Ashanti Cultural Registry",
+          "rightsStatus": "editorial_approved",
+          "source": "Public collection",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-kwame-nkrumah",
+      "slug": "kwame-nkrumah-memorial-park",
+      "name": "Kwame Nkrumah Memorial Park",
+      "summary": "National monument and mausoleum dedicated to Ghana's first President and Pan-African visionary.",
+      "description": "Located in downtown Accra on the former British colonial polo grounds where Kwame Nkrumah declared Ghana's independence in 1957. Recently renovated with state-of-the-art interactive exhibits and fountains.",
+      "culturalHistory": "The mausoleum is designed to resemble an upside-down sword, symbolizing peace in Akan traditional symbolism.",
+      "primaryCategoryId": "cat-cultural-historical",
+      "secondaryTags": [
+        "Pan-Africanism",
+        "Mausoleum",
+        "National Monument"
+      ],
+      "locality": "Downtown Accra",
+      "region": "Greater Accra",
+      "address": "High Street, Accra, Ghana",
+      "latitude": 5.5439,
+      "longitude": -0.2039,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-knm-1",
+          "type": "phone",
+          "label": "Park Management",
+          "value": "+233 53 007 6746",
+          "normalizedValue": "+233530076746",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "c-knm-2",
+          "type": "phone",
+          "label": "Visitor Relations",
+          "value": "+233 50 449 3993",
+          "normalizedValue": "+233504493993",
+          "isPrimary": false,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-knm-1",
+          "destinationId": "dest-kwame-nkrumah",
+          "url": "https://images.unsplash.com/photo-1584696049236-407a514d3a2d?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Statue and marble fountains at the Kwame Nkrumah Memorial Park in Accra",
+          "caption": "Presidential mausoleum and water gardens",
+          "credit": "Heritage Ghana",
+          "rightsStatus": "editorial_approved",
+          "source": "Public heritage archive",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-dubois-centre",
+      "slug": "web-du-bois-memorial-centre",
+      "name": "W.E.B. Du Bois Memorial Centre",
+      "summary": "Former home and resting place of the pioneering African American sociologist and Pan-Africanist.",
+      "description": "The sanctuary preserves the personal library, academic manuscripts, and memorabilia of Dr. William Edward Burghardt Du Bois, who relocated to Ghana at the invitation of Kwame Nkrumah to edit the Encyclopedia Africana.",
+      "culturalHistory": "Du Bois spent his final years here and was laid to rest beside his wife Shirley Graham Du Bois on the grounds.",
+      "primaryCategoryId": "cat-cultural-historical",
+      "secondaryTags": [
+        "Pan-African Heritage",
+        "Historic Residence",
+        "Library"
+      ],
+      "locality": "Cantonments",
+      "region": "Greater Accra",
+      "address": "1st Circular Road, Cantonments, Accra, Ghana",
+      "latitude": 5.5786,
+      "longitude": -0.1783,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 8)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-dub-1",
+          "type": "phone",
+          "label": "Centre Administrative Desk",
+          "value": "+233 30 277 6502",
+          "normalizedValue": "+233302776502",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-dub-1",
+          "destinationId": "dest-dubois-centre",
+          "url": "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Garden pathways and memorial building at the W.E.B. Du Bois Memorial Centre",
+          "caption": "Du Bois research library and memorial complex",
+          "credit": "Ghana Pan-African Foundation",
+          "rightsStatus": "editorial_approved",
+          "source": "Public domain collection",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-jamestown-ussher",
+      "slug": "jamestown-ussher-fort-and-lighthouse",
+      "name": "Jamestown, Ussher Fort and Lighthouse",
+      "summary": "Vibrant coastal Ga fishing community steeped in British-Ga maritime history and boxing heritage.",
+      "description": "Jamestown is one of Accra's oldest districts, famous for its red-and-white colonial lighthouse, traditional harbor fishing canoes, and colonial-era trading forts.",
+      "culturalHistory": "Home to the Chale Wote Street Art Festival and widely celebrated worldwide for generating numerous world boxing champions.",
+      "primaryCategoryId": "cat-cultural-historical",
+      "secondaryTags": [
+        "Historic Fishing Port",
+        "Lighthouse",
+        "Street Art & Boxing"
+      ],
+      "locality": "Jamestown",
+      "region": "Greater Accra",
+      "address": "High Street & Cleland Road, Jamestown, Accra, Ghana",
+      "latitude": 5.5333,
+      "longitude": -0.2119,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 8)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-jam-1",
+          "type": "phone",
+          "label": "Heritage Tourism Desk",
+          "value": "+233 30 222 1633",
+          "normalizedValue": "+233302221633",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        },
+        {
+          "id": "c-jam-2",
+          "type": "phone",
+          "label": "Lighthouse Tour Guide Desk",
+          "value": "+233 30 222 1635",
+          "normalizedValue": "+233302221635",
+          "isPrimary": false,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-jam-1",
+          "destinationId": "dest-jamestown-ussher",
+          "url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=80",
+          "altText": "The iconic red and white Jamestown lighthouse in Accra against the Atlantic ocean",
+          "caption": "Jamestown colonial lighthouse overlooking fishing harbor",
+          "credit": "Accra Heritage Trust",
+          "rightsStatus": "editorial_approved",
+          "source": "Public photo collection",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-black-star-square",
+      "slug": "independence-arch-black-star-square",
+      "name": "Independence Arch & Black Star Square",
+      "summary": "Massive public ceremonial ground framed by the iconic Independence Arch and eternal flame of African liberation.",
+      "description": "Commissioned by Kwame Nkrumah to celebrate national sovereignty. It remains the venue for national Independence Day celebrations every March 6th and major civic assemblies.",
+      "culturalHistory": "The Black Star atop the arch was adopted as a symbol of African freedom, unity, and resilience.",
+      "primaryCategoryId": "cat-cultural-historical",
+      "secondaryTags": [
+        "National Monument",
+        "Independence Square",
+        "Ceremonial Site"
+      ],
+      "locality": "Osu / Downtown",
+      "region": "Greater Accra",
+      "address": "Castle Road, Accra, Ghana",
+      "latitude": 5.5489,
+      "longitude": -0.1925,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 8)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-bss-1",
+          "type": "phone",
+          "label": "National Square Protocol",
+          "value": "+233 30 700 7100",
+          "normalizedValue": "+233307007100",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-bss-1",
+          "destinationId": "dest-black-star-square",
+          "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&w=1200&q=80",
+          "altText": "The grand Independence Arch with the Black Star symbol standing in Accra",
+          "caption": "The Independence Arch in Accra",
+          "credit": "Ghana Civic Archives",
+          "rightsStatus": "editorial_approved",
+          "source": "Public collection",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-fort-st-jago",
+      "slug": "fort-st-jago",
+      "name": "Fort St. Jago",
+      "summary": "Hilltop fortress overlooking Elmina Castle and the Atlantic port, built for strategic artillery defense.",
+      "description": "Built by the Dutch in the 1660s on St. Jago Hill opposite Elmina Castle to prevent rival forces from bombarding the castle from above.",
+      "culturalHistory": "Offers one of the most stunning panoramic views of the Gulf of Guinea and the historic town of Elmina.",
+      "primaryCategoryId": "cat-cultural-historical",
+      "secondaryTags": [
+        "UNESCO World Heritage",
+        "Hilltop Fort",
+        "Panoramic View"
+      ],
+      "locality": "Elmina",
+      "region": "Central Region",
+      "address": "St. Jago Hill, Elmina, Ghana",
+      "latitude": 5.0858,
+      "longitude": -1.3524,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 8)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-fsj-1",
+          "type": "phone",
+          "label": "Castle Complex Office",
+          "value": "+233 30 394 4028",
+          "normalizedValue": "+233303944028",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        },
+        {
+          "id": "c-fsj-2",
+          "type": "phone",
+          "label": "Information Hotline",
+          "value": "+233 30 394 4030",
+          "normalizedValue": "+233303944030",
+          "isPrimary": false,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-fsj-1",
+          "destinationId": "dest-fort-st-jago",
+          "url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Stone ramparts of Fort St. Jago on the hill looking towards Elmina harbor",
+          "caption": "Hilltop artillery fort overlooking Elmina",
+          "credit": "Heritage Trust",
+          "rightsStatus": "editorial_approved",
+          "source": "Public archive",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-larabanga-mosque",
+      "slug": "larabanga-mosque",
+      "name": "Larabanga Mosque",
+      "summary": "Ancient Sudanese architectural wonder founded in 1421, regarded as the 'Mecca of West Africa'.",
+      "description": "Constructed with packed mud and timber logs in the traditional Sudano-Sahelian style. Houses a sacred 17th-century Quran and is the oldest mosque in Ghana.",
+      "culturalHistory": "Surrounded by legends of an invisible hand that aided its founding mystic, Ayuba, in its construction.",
+      "primaryCategoryId": "cat-cultural-historical",
+      "secondaryTags": [
+        "Sudano-Sahelian Architecture",
+        "Historic Mosque",
+        "15th Century"
+      ],
+      "locality": "Larabanga (near Mole)",
+      "region": "Savannah Region",
+      "address": "Larabanga, near Damongo, Savannah Region, Ghana",
+      "latitude": 9.2198,
+      "longitude": -1.8596,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 8)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-lar-1",
+          "type": "phone",
+          "label": "Community Guides Committee",
+          "value": "+233 54 301 1889",
+          "normalizedValue": "+233543011889",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-lar-1",
+          "destinationId": "dest-larabanga-mosque",
+          "url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Traditional whitewashed mud and timber architecture of Larabanga Mosque",
+          "caption": "Larabanga Mosque's distinctive buttresses and timber spires",
+          "credit": "Northern Heritage Society",
+          "rightsStatus": "editorial_approved",
+          "source": "Public archive",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-nzulezu",
+      "slug": "nzulezu-stilt-village",
+      "name": "Nzulezu Stilt Village",
+      "summary": "An extraordinary 400-year-old settlement constructed entirely on stilts over Lake Tadane.",
+      "description": "Nzulezu, meaning 'surface of water' in the Nzema language, was built by ancestors migrating from the ancient Walata Empire following a divine snail guide.",
+      "culturalHistory": "Daily community life, schools, churches, and meeting places exist perched on wooden stilts interconnected by footbridges.",
+      "primaryCategoryId": "cat-cultural-historical",
+      "secondaryTags": [
+        "Stilt Village",
+        "Lake Tadane",
+        "Indigenous Heritage"
+      ],
+      "locality": "Beyin / Lake Tadane",
+      "region": "Western Region",
+      "address": "Beyin Canal Departure, Western Region, Ghana",
+      "latitude": 5.0211,
+      "longitude": -2.6053,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 8)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-nzu-1",
+          "type": "phone",
+          "label": "Beyin Visitors Center",
+          "value": "+233 24 460 6762",
+          "normalizedValue": "+233244606762",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-nzu-1",
+          "destinationId": "dest-nzulezu",
+          "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Wooden walkways and thatched homes built on stilts over tranquil lake waters in Nzulezu",
+          "caption": "Stilt structures over Lake Tadane",
+          "credit": "Western Region Ecotourism",
+          "rightsStatus": "editorial_approved",
+          "source": "Public collection",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-aqua-safari",
+      "slug": "aqua-safari-resort",
+      "name": "Aqua Safari Resort",
+      "summary": "Luxury waterfront resort situated along the Volta River estuary in Ada Foah.",
+      "description": "A premier coastal luxury getaway featuring tranquil boat cruises, water skiing, marine wildlife encounters, and serene river chalets.",
+      "primaryCategoryId": "cat-resorts",
+      "secondaryTags": [
+        "Volta River",
+        "Luxury Resort",
+        "Water Sports"
+      ],
+      "locality": "Ada Foah",
+      "region": "Greater Accra",
+      "address": "Ada Foah, Volta Estuary, Ghana",
+      "latitude": 5.7876,
+      "longitude": 0.6318,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-aq-1",
+          "type": "phone",
+          "label": "Reservations Desk",
+          "value": "+233 54 011 0190",
+          "normalizedValue": "+233540110190",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-aq-1",
+          "destinationId": "dest-aqua-safari",
+          "url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Riverfront swimming pool and chalets along the serene Volta riverbank",
+          "caption": "Waterfront accommodations at Aqua Safari",
+          "credit": "Resort promotional media",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-safari-valley",
+      "slug": "safari-valley-resort",
+      "name": "Safari Valley Resort",
+      "summary": "Eco-luxury retreat tucked into the lush Okere hills with free-roaming wildlife and botanical gardens.",
+      "description": "An extraordinary nature resort blending five-star hospitality with equestrian trails, exotic wildlife, organic farm-to-table dining, and wellness retreats.",
+      "primaryCategoryId": "cat-resorts",
+      "secondaryTags": [
+        "Eco-Luxury",
+        "Equestrian",
+        "Wildlife & Wellness"
+      ],
+      "locality": "Adukrom / Okere Hills",
+      "region": "Eastern Region",
+      "address": "Adukrom, Eastern Region, Ghana",
+      "latitude": 5.9892,
+      "longitude": -0.0954,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 7)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-sv-1",
+          "type": "phone",
+          "label": "Concierge & Booking",
+          "value": "+233 59 691 4394",
+          "normalizedValue": "+233596914394",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-sv-1",
+          "destinationId": "dest-safari-valley",
+          "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Verdant green valleys and luxury stone bungalows at Safari Valley Resort",
+          "caption": "Scenic landscapes in the Okere hills",
+          "credit": "Safari Valley archive",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-treasure-island",
+      "slug": "treasure-island-resort",
+      "name": "Treasure Island Resort",
+      "summary": "Island leisure resort nestled on the calm waters of the Volta River in Ada.",
+      "description": "Features floating dining pavilions, jet skiing, swimming pools with swim-up bars, and relaxing island views.",
+      "primaryCategoryId": "cat-resorts",
+      "secondaryTags": [
+        "Island Resort",
+        "Volta River",
+        "Day Trips"
+      ],
+      "locality": "Ada",
+      "region": "Greater Accra",
+      "address": "Ada Foah, Volta Estuary Island, Ghana",
+      "latitude": 5.7981,
+      "longitude": 0.635,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 7)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-ti-1",
+          "type": "phone",
+          "label": "Front Desk",
+          "value": "+233 302 918 140",
+          "normalizedValue": "+233302918140",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-ti-1",
+          "destinationId": "dest-treasure-island",
+          "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Island swimming pool surrounded by palm trees and tranquil river waters",
+          "caption": "Island leisure and water activities",
+          "credit": "Treasure Island archive",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-zaina-lodge",
+      "slug": "zaina-lodge",
+      "name": "Zaina Lodge",
+      "summary": "West Africa's first luxury safari lodge, overlooking water holes inside Mole National Park.",
+      "description": "Tented luxury suites with infinity swimming pools where elephants gather below to drink. Offers guided walking safaris and game drives.",
+      "primaryCategoryId": "cat-resorts",
+      "secondaryTags": [
+        "Safari Lodge",
+        "Infinity Pool",
+        "Mole National Park"
+      ],
+      "locality": "Mole National Park",
+      "region": "Savannah Region",
+      "address": "Mole National Park, Larabanga, Savannah Region, Ghana",
+      "latitude": 9.2581,
+      "longitude": -1.8542,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-zl-1",
+          "type": "phone",
+          "label": "Safari Bookings Line",
+          "value": "+233 540 111 504",
+          "normalizedValue": "+233540111504",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-zl-1",
+          "destinationId": "dest-zaina-lodge",
+          "url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Savannah views from infinity pool deck overlooking watering hole at Zaina Lodge",
+          "caption": "Overlooking the animal watering hole in Mole",
+          "credit": "Zaina Lodge media",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-labadi-beach-hotel",
+      "slug": "labadi-beach-hotel",
+      "name": "Labadi Beach Hotel",
+      "summary": "Ghana's premier 5-star beachfront landmark hotel set amidst landscaped tropical gardens.",
+      "description": "Renowned for its private beach access, international hospitality, the Akwaaba Restaurant, and Sunday cultural buffet feasts.",
+      "primaryCategoryId": "cat-resorts",
+      "secondaryTags": [
+        "5-Star Hotel",
+        "Beachfront",
+        "Accra Landmark"
+      ],
+      "locality": "Labadi",
+      "region": "Greater Accra",
+      "address": "No 1 La Bypass, Labadi, Accra, Ghana",
+      "latitude": 5.5615,
+      "longitude": -0.1444,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-lbh-1",
+          "type": "phone",
+          "label": "Hotel Concierge",
+          "value": "+233 302 774 222",
+          "normalizedValue": "+233302774222",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-lbh-1",
+          "destinationId": "dest-labadi-beach-hotel",
+          "url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Tropical gardens and lagoon swimming pools at Labadi Beach Hotel in Accra",
+          "caption": "Poolside and beachfront grounds at Labadi",
+          "credit": "Labadi Hotel Archive",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-la-palm-royal",
+      "slug": "la-palm-royal-beach-hotel",
+      "name": "La Palm Royal Beach Hotel",
+      "summary": "Sprawling oceanfront resort on the shores of the Gulf of Guinea with extensive event lawns.",
+      "description": "Features chalets decorated with authentic Ghanaian timber and fabrics, beachfront dining, and live highlife musical performances.",
+      "primaryCategoryId": "cat-resorts",
+      "secondaryTags": [
+        "Oceanfront",
+        "Highlife Music",
+        "Chalets"
+      ],
+      "locality": "Labadi",
+      "region": "Greater Accra",
+      "address": "Kpeshie Lagoon, La Bypass, Accra, Ghana",
+      "latitude": 5.5583,
+      "longitude": -0.1408,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 7)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-lpr-1",
+          "type": "phone",
+          "label": "Reception Desk",
+          "value": "+233 302 215 100",
+          "normalizedValue": "+233302215100",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-lpr-1",
+          "destinationId": "dest-la-palm-royal",
+          "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Oceanfront palm trees and sunset over the Gulf of Guinea at La Palm",
+          "caption": "Sunset over the Atlantic at La Palm",
+          "credit": "La Palm Royal Archive",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-coconut-grove",
+      "slug": "coconut-grove-beach-resort",
+      "name": "Coconut Grove Beach Resort",
+      "summary": "Picturesque coastal resort in Elmina with private ocean frontage and coconut palm groves.",
+      "description": "Located near Elmina Castle and Kakum National Park, offering horse riding on the beach, an ocean golf course, fresh seafood, and peaceful sea breezes.",
+      "primaryCategoryId": "cat-resorts",
+      "secondaryTags": [
+        "Elmina Coast",
+        "Golf & Riding",
+        "Beachfront"
+      ],
+      "locality": "Elmina",
+      "region": "Central Region",
+      "address": "Bridge House, Elmina, Central Region, Ghana",
+      "latitude": 5.0931,
+      "longitude": -1.3789,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 7)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-cgb-1",
+          "type": "phone",
+          "label": "Front Office",
+          "value": "+233 244 333 001",
+          "normalizedValue": "+233244333001",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-cgb-1",
+          "destinationId": "dest-coconut-grove",
+          "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Palm trees and golden sand beach at Coconut Grove Resort in Elmina",
+          "caption": "Golden sands and private shoreline in Elmina",
+          "credit": "Coconut Grove Media",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-mole-national-park",
+      "slug": "mole-national-park",
+      "name": "Mole National Park",
+      "summary": "Ghana's largest and most famous wildlife refuge, home to African elephants, antelopes, and baboons.",
+      "description": "Encompassing over 4,500 square kilometres of Guinea savannah woodland, Mole offers unique foot safaris guided by armed wildlife rangers, allowing close-up encounters with peaceful elephant herds.",
+      "culturalHistory": "Established in 1958 as a game reserve and upgraded to a national park in 1971. Features the historic Konkori escarpment and watering holes.",
+      "primaryCategoryId": "cat-eco-tourism",
+      "secondaryTags": [
+        "Wildlife Safari",
+        "African Elephants",
+        "Savannah"
+      ],
+      "locality": "Damongo / Larabanga",
+      "region": "Savannah Region",
+      "address": "Mole National Park, Savannah Region, Ghana",
+      "latitude": 9.2608,
+      "longitude": -1.8611,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-mnp-1",
+          "type": "phone",
+          "label": "Park Information Office",
+          "value": "+233 24 431 6777",
+          "normalizedValue": "+233244316777",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-mnp-1",
+          "destinationId": "dest-mole-national-park",
+          "url": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Elephants walking through savannah grassland in Mole National Park",
+          "caption": "Elephants near the watering hole in Mole",
+          "credit": "Wildlife Division of Ghana",
+          "rightsStatus": "editorial_approved",
+          "source": "Public wildlife archive",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-kakum-national-park",
+      "slug": "kakum-national-park",
+      "name": "Kakum National Park",
+      "summary": "Dense coastal rainforest celebrated for its exhilarating canopy walkway suspended 40 metres above the forest floor.",
+      "description": "The 350-metre-long canopy walkway offers a bird's-eye view of virgin rainforest canopy teeming with butterflies, monkeys, hornbills, and medicinal forest trees.",
+      "culturalHistory": "Managed with local Assin communities, preserving indigenous herbal medicine knowledge and ancestral rainforest conservation.",
+      "primaryCategoryId": "cat-eco-tourism",
+      "secondaryTags": [
+        "Canopy Walkway",
+        "Rainforest",
+        "Bird Watching"
+      ],
+      "locality": "Assin Attandanso",
+      "region": "Central Region",
+      "address": "Cape Coast - Twifo Praso Road, Central Region, Ghana",
+      "latitude": 5.3528,
+      "longitude": -1.3833,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-knp-1",
+          "type": "phone",
+          "label": "Visitor Reception Desk",
+          "value": "+233 33 213 0265",
+          "normalizedValue": "+233332130265",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-knp-1",
+          "destinationId": "dest-kakum-national-park",
+          "url": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Hanging canopy walkway bridge suspended between giant hardwood trees in Kakum rainforest",
+          "caption": "Canopy walkway 40 metres above the forest floor",
+          "credit": "Ghana Heritage Conservation Trust",
+          "rightsStatus": "editorial_approved",
+          "source": "Public archive",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-shai-hills",
+      "slug": "shai-hills-resource-reserve",
+      "name": "Shai Hills Resource Reserve",
+      "summary": "Rugged granite rocky hills, ancestral caves, baboon troops, and zebras located just an hour outside Accra.",
+      "description": "An accessible eco-excursion offering rock climbing, cycling, hiking, and visits to the ancestral caves where the Shai people lived before 1892.",
+      "culturalHistory": "The caves served as a natural fortress during regional wars and retain ancestral archaeological remains.",
+      "primaryCategoryId": "cat-eco-tourism",
+      "secondaryTags": [
+        "Day Trip from Accra",
+        "Rock Climbing",
+        "Baboons & Zebras"
+      ],
+      "locality": "Dodowa / Doryumu",
+      "region": "Greater Accra",
+      "address": "Tema-Akosombo Road, Doryumu, Greater Accra, Ghana",
+      "latitude": 5.8833,
+      "longitude": 0.0667,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-shr-1",
+          "type": "phone",
+          "label": "Ranger Station",
+          "value": "+233 24 724 1073",
+          "normalizedValue": "+233247241073",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-shr-1",
+          "destinationId": "dest-shai-hills",
+          "url": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Granite inselbergs and savannah scrub at Shai Hills Resource Reserve",
+          "caption": "Granite inselbergs across Shai Hills plains",
+          "credit": "Wildlife Division Ghana",
+          "rightsStatus": "editorial_approved",
+          "source": "Public archive",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-kozo",
+      "slug": "kozo-restaurant",
+      "name": "Kozo Restaurant",
+      "summary": "Sensory Asian-inspired fine dining with minimalist tropical architectural elegance in Airport Residential.",
+      "description": "Kozo offers contemporary Japanese and Pan-Asian fusion cuisine set in an ethereal bamboo sanctuary with water features and handcrafted cocktails.",
+      "primaryCategoryId": "cat-restaurants",
+      "secondaryTags": [
+        "Fine Dining",
+        "Pan-Asian",
+        "Cocktails"
+      ],
+      "locality": "Airport Residential",
+      "region": "Greater Accra",
+      "address": "33 Patrice Lumumba Road, Airport Residential, Accra",
+      "latitude": 5.6033,
+      "longitude": -0.1842,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-koz-1",
+          "type": "phone",
+          "label": "Table Reservations",
+          "value": "+233 59 115 9312",
+          "normalizedValue": "+233591159312",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-koz-1",
+          "destinationId": "dest-kozo",
+          "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Ambient evening dining room with bamboo and modern architecture at Kozo",
+          "caption": "Architectural dining space at Kozo",
+          "credit": "Kozo Accra archive",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-santoku",
+      "slug": "santoku-restaurant",
+      "name": "Santoku",
+      "summary": "World-class contemporary Japanese dining and sake bar designed by international architects.",
+      "description": "Acclaimed for sushi masters, Wagyu beef, robata grills, and sophisticated private dining rooms.",
+      "primaryCategoryId": "cat-restaurants",
+      "secondaryTags": [
+        "Fine Dining",
+        "Japanese & Sushi",
+        "Sake Bar"
+      ],
+      "locality": "Airport Residential",
+      "region": "Greater Accra",
+      "address": "One Airport Square, Airport City, Accra",
+      "latitude": 5.6021,
+      "longitude": -0.1798,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 9)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-san-1",
+          "type": "phone",
+          "label": "Reservations Line",
+          "value": "+233 54 431 1511",
+          "normalizedValue": "+233544311511",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-san-1",
+          "destinationId": "dest-santoku",
+          "url": "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Artisan sushi and sashimi plate presented at Santoku",
+          "caption": "Contemporary sushi and Japanese dining",
+          "credit": "Santoku Restaurant",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-bistro-22",
+      "slug": "bistro-22",
+      "name": "Bistro 22",
+      "summary": "Elegant European bistro in Labone offering steaks, fresh seafood, and garden patio dining.",
+      "description": "One of Accra's most consistent culinary gems, famed for its ribeye, duck breast, pasta, and curated wine cellar.",
+      "primaryCategoryId": "cat-restaurants",
+      "secondaryTags": [
+        "Fine Dining",
+        "European",
+        "Wine & Patio"
+      ],
+      "locality": "Labone",
+      "region": "Greater Accra",
+      "address": "22 Ndabaningi Sithole Road, Labone, Accra",
+      "latitude": 5.5684,
+      "longitude": -0.1652,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 9)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-b22-1",
+          "type": "phone",
+          "label": "Bookings Desk",
+          "value": "+233 50 826 2222",
+          "normalizedValue": "+233508262222",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-b22-1",
+          "destinationId": "dest-bistro-22",
+          "url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Charming evening patio and wine glasses at Bistro 22",
+          "caption": "Al fresco dining in Labone",
+          "credit": "Bistro 22 archive",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-buka-restaurant",
+      "slug": "buka-restaurant",
+      "name": "Buka Restaurant",
+      "summary": "Beloved open-air culinary staple in Osu serving authentic Ghanaian, Nigerian, and Ivorian specialties.",
+      "description": "Celebrated by locals and visitors alike for authentic Jollof rice, grilled tilapia with spicy shito and banku, goat meat light soup, and plantain.",
+      "culturalHistory": "A landmark institution introducing international travellers to the richness of authentic West African home-cooked food.",
+      "primaryCategoryId": "cat-restaurants",
+      "secondaryTags": [
+        "Local Restaurants",
+        "Ghanaian Flavors",
+        "Jollof & Banku"
+      ],
+      "locality": "Osu",
+      "region": "Greater Accra",
+      "address": "10th Street, Osu, Accra, Ghana",
+      "latitude": 5.5581,
+      "longitude": -0.1819,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-buk-1",
+          "type": "phone",
+          "label": "Restaurant Reception",
+          "value": "+233 24 484 2464",
+          "normalizedValue": "+233244842464",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-buk-1",
+          "destinationId": "dest-buka-restaurant",
+          "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Traditional West African grilled fish, spiced plantain, and jollof rice",
+          "caption": "Authentic Ghanaian culinary spread at Buka",
+          "credit": "West African Food Archive",
+          "rightsStatus": "editorial_approved",
+          "source": "Public collection",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-chop-bar",
+      "slug": "the-chop-bar",
+      "name": "The Chop Bar",
+      "summary": "Modernized authentic local 'chop bar' dining experience in Achimota Retail Centre.",
+      "description": "Offers classic Ghanaian road-side specialties in a hygienic, contemporary setting: Fufu with peanut soup, Waakye with all the accompaniments, and Kelewele.",
+      "primaryCategoryId": "cat-restaurants",
+      "secondaryTags": [
+        "Local Restaurants",
+        "Fufu & Waakye",
+        "Chop Bar"
+      ],
+      "locality": "Achimota",
+      "region": "Greater Accra",
+      "address": "Achimota Retail Centre, Accra, Ghana",
+      "latitude": 5.6267,
+      "longitude": -0.2319,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-chb-1",
+          "type": "phone",
+          "label": "Front Counter",
+          "value": "+233 30 396 6603",
+          "normalizedValue": "+233303966603",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-chb-1",
+          "destinationId": "dest-chop-bar",
+          "url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Traditional Ghanaian earthenware asanka bowl with steaming fufu and soup",
+          "caption": "Traditional earthenware asanka presentation",
+          "credit": "The Chop Bar Media",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-breakfast-to-breakfast",
+      "slug": "breakfast-to-breakfast",
+      "name": "Breakfast to Breakfast (B2B)",
+      "summary": "Popular 24/7 casual diner on Osu Oxford Street serving hearty breakfasts, sandwiches, and Lebanese bites.",
+      "description": "Famous for morning pancakes, loaded omelettes, manakish, shawarma, and fresh juices day or night.",
+      "primaryCategoryId": "cat-restaurants",
+      "secondaryTags": [
+        "Breakfast Spots",
+        "24/7 Diner",
+        "Osu Oxford St"
+      ],
+      "locality": "Osu",
+      "region": "Greater Accra",
+      "address": "Cantonments Road (Oxford Street), Osu, Accra",
+      "latitude": 5.5562,
+      "longitude": -0.1831,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 9)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-b2b-1",
+          "type": "phone",
+          "label": "Diner Line",
+          "value": "+233 20 880 0008",
+          "normalizedValue": "+233208800008",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-b2b-1",
+          "destinationId": "dest-breakfast-to-breakfast",
+          "url": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Breakfast table with fresh croissants, scrambled eggs, and hot coffee",
+          "caption": "Hearty breakfast spread in Osu",
+          "credit": "Breakfast Cafe Archive",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    },
+    {
+      "id": "dest-skybar-25",
+      "slug": "skybar-25",
+      "name": "Skybar 25",
+      "summary": "Accra's premier rooftop lounge perched atop Alto Tower with 360-degree views of the capital skyline.",
+      "description": "Featuring a rooftop infinity pool, live DJ sets, signature craft mixology, and an energetic international crowd under the stars.",
+      "primaryCategoryId": "cat-nightlife",
+      "secondaryTags": [
+        "Rooftop Lounge",
+        "Skyline View",
+        "Cocktail Club"
+      ],
+      "locality": "Airport Residential",
+      "region": "Greater Accra",
+      "address": "Alto Tower, Villaggio Vista, Airport Residential, Accra",
+      "latitude": 5.6045,
+      "longitude": -0.1788,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-sb25-1",
+          "type": "phone",
+          "label": "VIP Lounge Reservations",
+          "value": "+233 56 082 4725",
+          "normalizedValue": "+233560824725",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-sb25-1",
+          "destinationId": "dest-skybar-25",
+          "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Cocktails on illuminated bar counter with panoramic nighttime city lights view",
+          "caption": "Skyline views from Skybar 25",
+          "credit": "Skybar Accra Media",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-bloom-bar",
+      "slug": "bloom-bar",
+      "name": "Bloom Bar",
+      "summary": "Iconic open-air tropical bar and nightlife institution in Osu at the epicenter of Accra's December scene.",
+      "description": "Famous for high-energy Afrobeats and Amapiano DJ sets, signature punch bowls, and fairy-lit garden vibes that attract celebrities and travellers worldwide.",
+      "primaryCategoryId": "cat-nightlife",
+      "secondaryTags": [
+        "Afrobeats",
+        "Open-air Garden",
+        "Osu Nightlife"
+      ],
+      "locality": "Osu",
+      "region": "Greater Accra",
+      "address": "Troas Street, Osu, Accra, Ghana",
+      "latitude": 5.5612,
+      "longitude": -0.1802,
+      "status": "published",
+      "source": "Editorial Board & Direct Phone Verification",
+      "verificationStatus": "fully_verified",
+      "contacts": [
+        {
+          "id": "c-bb-1",
+          "type": "phone",
+          "label": "Table Bookings",
+          "value": "+233 53 131 0989",
+          "normalizedValue": "+233531310989",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-bb-1",
+          "destinationId": "dest-bloom-bar",
+          "url": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Crowd dancing under outdoor hanging string lights with DJ in nighttime Accra",
+          "caption": "Vibrant outdoor atmosphere at Bloom Bar",
+          "credit": "Accra Nightlife Registry",
+          "rightsStatus": "editorial_approved",
+          "source": "Public collection",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z",
+      "verifiedAt": "2026-11-05T09:03:01.902Z"
+    },
+    {
+      "id": "dest-front-back",
+      "slug": "front-back-accra",
+      "name": "Front/Back",
+      "summary": "Exclusive cultural members club celebrating contemporary African art, rare spirits, and vinyl listening.",
+      "description": "A private creative hub in Osu showcasing Pan-African mixology, live jazz, vinyl record listening sessions, and private chef dinners.",
+      "primaryCategoryId": "cat-nightlife",
+      "secondaryTags": [
+        "Cultural Lounge",
+        "Vinyl Listening",
+        "Pan-African Art"
+      ],
+      "locality": "Osu",
+      "region": "Greater Accra",
+      "address": "Osu Badu Street, Accra, Ghana",
+      "latitude": 5.5595,
+      "longitude": -0.1774,
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 8)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-fb-1",
+          "type": "phone",
+          "label": "Member Concierge",
+          "value": "+233 55 218 2129",
+          "normalizedValue": "+233552182129",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "media": [
+        {
+          "id": "m-fb-1",
+          "destinationId": "dest-front-back",
+          "url": "https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&w=1200&q=80",
+          "altText": "Intimate speakeasy style cocktail bar with vintage African art and vinyl records",
+          "caption": "Intimate cultural salon and listening lounge",
+          "credit": "Front/Back Archive",
+          "rightsStatus": "editorial_approved",
+          "source": "Public promotion",
+          "displayOrder": 1
+        }
+      ],
+      "createdAt": "2026-11-04T09:00:00Z",
+      "updatedAt": "2026-11-04T09:00:00Z"
+    }
+  ],
+  "providers": [
+    {
+      "id": "prov-sunseekers",
+      "slug": "sunseekers-tours",
+      "name": "Sunseekers Tours",
+      "description": "Specialized guided group excursions, cultural expeditions, and long-distance travel across Ghana.",
+      "type": "rental",
+      "hasLogoRights": false,
+      "vehicleTypes": [
+        "Air-conditioned Minivans",
+        "Tour Coaches",
+        "Executive SUVs"
+      ],
+      "serviceArea": "Greater Accra, Central, Ashanti, Northern, and Volta Regions",
+      "status": "published",
+      "source": "Best of Ghana Concept Presentation (Slide 10)",
+      "verificationStatus": "verified",
+      "contacts": [
+        {
+          "id": "c-prov-1",
+          "type": "phone",
+          "label": "Office Reservations",
+          "value": "+233 30 222 5393",
+          "normalizedValue": "+233302225393",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        },
+        {
+          "id": "c-prov-2",
+          "type": "phone",
+          "label": "Dispatch",
+          "value": "+233 30 224 4070",
+          "normalizedValue": "+233302244070",
+          "isPrimary": false,
+          "verificationStatus": "verified"
+        }
+      ],
+      "createdAt": "2026-11-04T08:00:00Z",
+      "updatedAt": "2026-11-04T08:00:00Z"
+    },
+    {
+      "id": "prov-caradise",
+      "slug": "caradise-ghana",
+      "name": "Caradise Ghana",
+      "description": "Reliable chauffeur-driven vehicles and intercity minivan charter service.",
+      "type": "rental",
+      "hasLogoRights": false,
+      "vehicleTypes": [
+        "Sedans",
+        "Minivans",
+        "4x4 SUVs"
+      ],
+      "serviceArea": "National Coverage (Intercity)",
+      "status": "published",
+      "source": "Best of Ghana Concept Presentation (Slide 10)",
+      "verificationStatus": "verified",
+      "contacts": [
+        {
+          "id": "c-prov-3",
+          "type": "phone",
+          "label": "Direct Booking",
+          "value": "+233 24 608 6365",
+          "normalizedValue": "+233246086365",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "createdAt": "2026-11-04T08:00:00Z",
+      "updatedAt": "2026-11-04T08:00:00Z"
+    },
+    {
+      "id": "prov-a1",
+      "slug": "a1-car-and-bus-rental",
+      "name": "A1 Car & Bus Rental",
+      "description": "Fleet of buses, passenger minivans, and executive vehicles for family or group travel.",
+      "type": "rental",
+      "hasLogoRights": false,
+      "vehicleTypes": [
+        "15-seater Minivans",
+        "30-seater Coaster Buses",
+        "SUVs"
+      ],
+      "serviceArea": "Accra, Cape Coast, Kumasi, Takoradi",
+      "status": "published",
+      "source": "Best of Ghana Concept Presentation (Slide 10)",
+      "verificationStatus": "verified",
+      "contacts": [
+        {
+          "id": "c-prov-4",
+          "type": "phone",
+          "label": "Rental Line",
+          "value": "+233 57 460 6464",
+          "normalizedValue": "+233574606464",
+          "isPrimary": true,
+          "verificationStatus": "verified"
+        }
+      ],
+      "createdAt": "2026-11-04T08:00:00Z",
+      "updatedAt": "2026-11-04T08:00:00Z"
+    },
+    {
+      "id": "prov-chris-mobility",
+      "slug": "chris-mobility-africa",
+      "name": "Chris Mobility Africa",
+      "description": "Corporate mobility, long-haul private minivan transfers, and airport pickup services.",
+      "type": "rental",
+      "hasLogoRights": false,
+      "vehicleTypes": [
+        "Executive Minivans",
+        "Luxury SUVs"
+      ],
+      "serviceArea": "Greater Accra & Regional Corridors",
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 10)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-prov-5",
+          "type": "phone",
+          "label": "Customer Support",
+          "value": "+233 53 968 0479",
+          "normalizedValue": "+233539680479",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "createdAt": "2026-11-04T08:00:00Z",
+      "updatedAt": "2026-11-04T08:00:00Z"
+    },
+    {
+      "id": "prov-ghana-car-rentals",
+      "slug": "ghana-car-rentals",
+      "name": "Ghana Car Rentals",
+      "description": "Nationwide vehicle rental with experienced drivers for short and multi-day hire.",
+      "type": "rental",
+      "hasLogoRights": false,
+      "vehicleTypes": [
+        "Compact Sedans",
+        "Minivans",
+        "Hilux Pickups"
+      ],
+      "serviceArea": "All Regions",
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 10)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-prov-6",
+          "type": "phone",
+          "label": "Hotline",
+          "value": "+233 26 262 6206",
+          "normalizedValue": "+233262626206",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "createdAt": "2026-11-04T08:00:00Z",
+      "updatedAt": "2026-11-04T08:00:00Z"
+    },
+    {
+      "id": "prov-behappy",
+      "slug": "behappy-limo-car-rentals",
+      "name": "BeHappy Limo Car Rentals",
+      "description": "Executive transport, limousine hire, and private charter minivans.",
+      "type": "rental",
+      "hasLogoRights": false,
+      "vehicleTypes": [
+        "Limousines",
+        "Executive Minivans",
+        "SUVs"
+      ],
+      "serviceArea": "Greater Accra, Eastern & Central Regions",
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 10)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-prov-7",
+          "type": "phone",
+          "label": "Direct Dispatch",
+          "value": "+233 20 063 1825",
+          "normalizedValue": "+233200631825",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "createdAt": "2026-11-04T08:00:00Z",
+      "updatedAt": "2026-11-04T08:00:00Z"
+    },
+    {
+      "id": "prov-wild-tours",
+      "slug": "wild-tours-ghana",
+      "name": "Wild Tours Ghana",
+      "description": "Rugged cross-country travel, customized safari transport, and off-road excursions.",
+      "type": "rental",
+      "hasLogoRights": false,
+      "vehicleTypes": [
+        "4x4 Land Cruisers",
+        "All-terrain Minivans"
+      ],
+      "serviceArea": "Northern Ghana, Mole National Park, Volta & Coastal circuits",
+      "status": "draft",
+      "source": "Best of Ghana Concept Presentation (Slide 10)",
+      "verificationStatus": "unverified",
+      "contacts": [
+        {
+          "id": "c-prov-8",
+          "type": "phone",
+          "label": "Adventures Desk",
+          "value": "+233 20 227 9322",
+          "normalizedValue": "+233202279322",
+          "isPrimary": true,
+          "verificationStatus": "unverified"
+        }
+      ],
+      "createdAt": "2026-11-04T08:00:00Z",
+      "updatedAt": "2026-11-04T08:00:00Z"
+    }
+  ],
+  "campaigns": [
+    {
+      "code": "ACC-AIRPORT-T3",
+      "partnerName": "Kotoka International Airport Arrivals",
+      "placement": "Terminal 3 Welcome Information Stand",
+      "targetRoute": "/",
+      "promoVideoUrl": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+      "status": "active",
+      "scansCount": 42,
+      "createdAt": "2026-11-01T10:00:00Z"
+    },
+    {
+      "code": "HOTEL-LABADI-LOBBY",
+      "partnerName": "Labadi Beach Hotel",
+      "placement": "Main Concierge & Tour Desk Stand",
+      "targetRoute": "/category/resorts",
+      "status": "active",
+      "scansCount": 18,
+      "createdAt": "2026-11-02T12:30:00Z"
+    },
+    {
+      "code": "CAPE-COAST-VISITOR",
+      "partnerName": "Cape Coast Castle Heritage Desk",
+      "placement": "Visitor Reception Stand",
+      "targetRoute": "/category/cultural-and-historical",
+      "status": "active",
+      "scansCount": 29,
+      "createdAt": "2026-11-03T09:15:00Z"
+    }
+  ],
+  "auditEvents": [
+    {
+      "id": "audit-init",
+      "actor": "system_seeder",
+      "entity": "system",
+      "action": "seed",
+      "timestamp": "2026-11-04T08:00:00Z",
+      "changedFields": {
+        "totalCategories": 6,
+        "totalDestinationsSeededDraft": 29,
+        "totalProvidersSeededDraft": 7,
+        "totalCampaigns": 3,
+        "note": "All destinations and providers seeded in draft/unverified status per PRD requirement"
+      }
+    },
+    {
+      "id": "audit-1793869381902",
+      "actor": "test_admin",
+      "entity": "system",
+      "action": "publish",
+      "timestamp": "2026-11-05T09:03:01.902Z",
+      "changedFields": {
+        "publishedCount": 14,
+        "note": "Sample verified records published for immediate experience while preserving draft model"
+      }
+    }
+  ],
+  "analyticsEvents": []
+}
