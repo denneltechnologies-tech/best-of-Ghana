@@ -14,7 +14,7 @@ export function BottomNav() {
 
   return (
     <nav
-      className="sticky bottom-0 z-30 flex w-full border-t border-[var(--line)] bg-[var(--card)] px-2 py-1.5 shadow-lg backdrop-blur-md"
+      className="md:hidden sticky bottom-0 z-40 flex w-full border-t border-[var(--line)] bg-[var(--card)] px-2 py-1.5 shadow-lg backdrop-blur-md"
       aria-label="Bottom Navigation"
     >
       <Link
@@ -67,4 +67,3 @@ export function BottomNav() {
     </nav>
   );
 }
-

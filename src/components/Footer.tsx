@@ -1,93 +1,127 @@
 import Link from "next/link";
-import { Sparkles, ShieldCheck, MapPin, ExternalLink } from "lucide-react";
+import { Compass, Phone, ShieldCheck, Heart } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="border-t border-ghana-border bg-ghana-sand/40 pb-20 pt-12 md:pb-12">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-          {/* Brand & Value */}
-          <div className="md:col-span-2">
+    <footer className="mt-16 border-t border-[var(--line)] bg-[var(--card)] text-[var(--ink)] hidden md:block">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          {/* Brand & Mission */}
+          <div className="flex flex-col gap-3 md:col-span-1">
             <div className="flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-ghana-green text-ghana-gold">
-                <Sparkles className="h-4 w-4" />
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--acc)] text-white">
+                <Compass className="h-4 w-4" />
               </div>
-              <span className="text-lg font-bold text-ghana-dark">
-                Best of <span className="text-ghana-gold">Ghana</span>
-              </span>
+              <span className="font-extrabold text-base tracking-tight">Best of Ghana</span>
             </div>
-            <p className="mt-3 max-w-md text-sm text-neutral-600 leading-relaxed">
-              Curated, independent travel directory designed for do-it-yourself travellers.
-              Discover authentic cultural landmarks, pristine eco-tourism, beach resorts, dining,
-              and nightlife across Ghana with verified contacts and external directions.
+            <p className="text-xs leading-relaxed text-[var(--mut)]">
+              An all-in-one curated tourism guide for DIY travelers in Ghana. Verified heritage sites, beach resorts, nightlife spots, dining, and reliable transport handoffs.
             </p>
-            <div className="mt-4 flex items-center gap-2 text-xs text-neutral-500">
-              <ShieldCheck className="h-4 w-4 text-ghana-green" />
-              <span>Zero-account policy · Privacy-preserving · Direct provider arrangements</span>
+            <div className="flex items-center gap-1.5 text-xs text-[var(--mut)] pt-1">
+              <span>Made with</span>
+              <Heart className="h-3.5 w-3.5 fill-red-500 text-red-500 inline" />
+              <span>for Ghana tourism</span>
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-neutral-900">
-              Navigation
+          {/* Categories */}
+          <div className="flex flex-col gap-2.5">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-[var(--acc)]">
+              Explore Destinations
             </h3>
-            <ul className="mt-3 space-y-2 text-sm text-neutral-600">
+            <ul className="flex flex-col gap-2 text-xs text-[var(--mut)]">
               <li>
-                <Link href="/" className="hover:text-ghana-green hover:underline">
-                  Home Directory
+                <Link href="/category/cultural-and-historical" className="hover:text-[var(--ink)] transition">
+                  Cultural &amp; Historical Sites
                 </Link>
               </li>
               <li>
-                <Link href="/getting-around" className="hover:text-ghana-green hover:underline">
-                  Getting Around & Rentals
+                <Link href="/category/nightlife" className="hover:text-[var(--ink)] transition">
+                  Nightlife &amp; Lounges
                 </Link>
               </li>
               <li>
-                <Link href="/search" className="hover:text-ghana-green hover:underline">
-                  Search Places
+                <Link href="/category/resorts" className="hover:text-[var(--ink)] transition">
+                  Beach &amp; Lake Resorts
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="hover:text-ghana-green hover:underline">
-                  Privacy Policy & Data Notice
+                <Link href="/category/eco-tourism" className="hover:text-[var(--ink)] transition">
+                  Eco-Tourism &amp; Parks
+                </Link>
+              </li>
+              <li>
+                <Link href="/category/restaurants" className="hover:text-[var(--ink)] transition">
+                  Fine Dining &amp; Local Cuisine
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Administration & Transparency */}
-          <div>
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-neutral-900">
-              Editorial
+          {/* Transport & Services */}
+          <div className="flex flex-col gap-2.5">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-[var(--acc)]">
+              Transport &amp; Rides
             </h3>
-            <ul className="mt-3 space-y-2 text-sm text-neutral-600">
+            <ul className="flex flex-col gap-2 text-xs text-[var(--mut)]">
               <li>
-                <Link href="/admin" className="hover:text-ghana-green hover:underline">
-                  Editorial Admin Dashboard
+                <Link href="/rides" className="hover:text-[var(--ink)] transition">
+                  Uber Ride Integrations
                 </Link>
               </li>
               <li>
-                <Link href="/landing?c=ACC-AIRPORT-T3" className="hover:text-ghana-green hover:underline">
-                  QR Stand Demo (Airport)
+                <Link href="/rentals" className="hover:text-[var(--ink)] transition">
+                  Chauffeur Vehicle Rentals
+                </Link>
+              </li>
+              <li>
+                <Link href="/search" className="hover:text-[var(--ink)] transition">
+                  Search Directory
+                </Link>
+              </li>
+              <li>
+                <Link href="/admin" className="hover:text-[var(--ink)] transition flex items-center gap-1">
+                  <ShieldCheck className="h-3.5 w-3.5" />
+                  <span>Editorial Admin Portal</span>
                 </Link>
               </li>
             </ul>
-            <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50/70 p-3 text-xs text-amber-800">
-              <p className="font-medium">Independent Travel Companion</p>
-              <p className="mt-1 text-[11px] text-amber-700">
-                All transport and bookings are arranged directly with providers. Best of Ghana does
-                not take booking commissions or collect fees.
-              </p>
+          </div>
+
+          {/* Emergency & Safe Travel */}
+          <div className="flex flex-col gap-2.5">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-[var(--acc)]">
+              Travel Safety &amp; Emergency
+            </h3>
+            <p className="text-xs text-[var(--mut)]">
+              Keep verified emergency lines saved on your phone during trips:
+            </p>
+            <div className="flex flex-col gap-1.5 text-xs text-[var(--ink)] font-semibold">
+              <div className="flex items-center justify-between rounded-lg bg-[var(--bg)] px-2.5 py-1.5 border border-[var(--line)]">
+                <span>Ghana Police Hotline:</span>
+                <a href="tel:191" className="text-[var(--acc)] font-bold hover:underline">191 / 112</a>
+              </div>
+              <div className="flex items-center justify-between rounded-lg bg-[var(--bg)] px-2.5 py-1.5 border border-[var(--line)]">
+                <span>National Ambulance Service:</span>
+                <a href="tel:193" className="text-[var(--acc)] font-bold hover:underline">193</a>
+              </div>
+              <div className="flex items-center justify-between rounded-lg bg-[var(--bg)] px-2.5 py-1.5 border border-[var(--line)]">
+                <span>Ghana Fire Service:</span>
+                <a href="tel:192" className="text-[var(--acc)] font-bold hover:underline">192</a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-8 border-t border-ghana-border/60 pt-6 text-center text-xs text-neutral-500">
-          <p>© {new Date().getFullYear()} Best of Ghana. Grounded in founder validation requirements.</p>
+        {/* Bottom copyright line */}
+        <div className="mt-8 pt-6 border-t border-[var(--line)] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[var(--mut)]">
+          <p>© {new Date().getFullYear()} Best of Ghana. Curated verified tourism directory.</p>
+          <div className="flex items-center gap-4">
+            <Link href="/privacy" className="hover:underline">Privacy Policy</Link>
+            <Link href="/admin" className="hover:underline">Editorial Verification</Link>
+          </div>
         </div>
       </div>
     </footer>
   );
 }
-

@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 import { BottomNav } from "@/components/BottomNav";
 
 export const metadata: Metadata = {
@@ -24,16 +26,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex min-h-screen justify-center bg-black/10 dark:bg-black/60">
-        <div
-          id="app"
-          className="flex min-h-screen w-full max-w-[460px] flex-col bg-[var(--bg)] shadow-2xl text-[var(--ink)] relative"
-        >
-          <main id="m" className="flex-1 flex flex-col gap-4 p-5 pb-6">
-            {children}
-          </main>
-          <BottomNav />
-        </div>
+      <body className="min-h-screen bg-[var(--bg)] text-[var(--ink)] antialiased flex flex-col selection:bg-[var(--acc)] selection:text-white">
+        <Navbar />
+        <main id="m" className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
+          {children}
+        </main>
+        <Footer />
+        <BottomNav />
       </body>
     </html>
   );

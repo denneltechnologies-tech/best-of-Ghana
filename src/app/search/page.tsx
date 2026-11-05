@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { DatabaseRepository } from "@/lib/db";
-import { ArrowLeft, Search, Phone } from "lucide-react";
+import { ArrowLeft, Search, Phone, MapPin } from "lucide-react";
 
 interface SearchPageProps {
   searchParams?: { q?: string };
@@ -13,39 +13,48 @@ export default function SearchPage({ searchParams }: SearchPageProps) {
     : [];
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-6">
       {/* Top Header */}
-      <div className="flex items-center gap-1.5 -ml-2">
-        <Link
-          href="/"
-          className="flex h-11 w-11 items-center justify-center rounded-xl text-[var(--ink)] hover:bg-[var(--card)]"
-          aria-label="Back to home"
-        >
-          <ArrowLeft className="h-5 w-5" />
-        </Link>
-        <h1 className="text-2xl font-extrabold tracking-tight text-[var(--ink)]">
+      <div className="flex flex-col gap-2">
+        <div className="flex items-center gap-2">
+          <Link
+            href="/"
+            className="flex h-10 w-10 items-center justify-center rounded-xl border border-[var(--line)] bg-[var(--card)] text-[var(--ink)] hover:border-[var(--acc)] transition"
+            aria-label="Back to home"
+          >
+            <ArrowLeft className="h-5 w-5" />
+          </Link>
+          <span className="text-xs font-bold uppercase tracking-wider text-[var(--acc)]">
+            Explore Directory
+          </span>
+        </div>
+
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-[var(--ink)]">
           Search Directory
         </h1>
+        <p className="text-sm md:text-base text-[var(--mut)]">
+          Find heritage castles, beach resorts, dining spots, nightlife lounges, and parks across Ghana.
+        </p>
       </div>
 
       {/* Search Input Form */}
       <form
         action="/search"
         method="GET"
-        className="flex items-center rounded-2xl border border-[var(--line)] bg-[var(--card)] px-3 py-1 shadow-sm focus-within:border-[var(--acc)]"
+        className="flex items-center rounded-2xl md:rounded-3xl border border-[var(--line)] bg-[var(--card)] px-4 py-2 shadow-sm focus-within:border-[var(--acc)] focus-within:ring-2 focus-within:ring-[var(--acc)]/20 transition"
       >
-        <Search className="h-4 w-4 text-[var(--mut)] mr-2" />
+        <Search className="h-5 w-5 text-[var(--mut)] mr-3 flex-shrink-0" />
         <input
           type="text"
           name="q"
           defaultValue={query}
-          placeholder="Search places, castles, food..."
-          className="w-full bg-transparent py-2.5 text-sm text-[var(--ink)] placeholder-[var(--mut)] outline-none"
+          placeholder="Search by name, region, cuisine, or category..."
+          className="w-full bg-transparent py-2 text-sm md:text-base text-[var(--ink)] placeholder-[var(--mut)] outline-none"
           autoFocus
         />
         <button
           type="submit"
-          className="rounded-[11px] bg-[var(--acc)] px-3 py-1.5 text-xs font-bold text-white shadow-sm hover:bg-[var(--acc-hover)]"
+          className="rounded-xl bg-[var(--acc)] px-5 py-2.5 text-xs md:text-sm font-bold text-white shadow-sm hover:bg-[var(--acc-hover)] transition"
         >
           Search
         </button>
@@ -53,14 +62,16 @@ export default function SearchPage({ searchParams }: SearchPageProps) {
 
       {/* Results Header */}
       {query && (
-        <p className="text-xs text-[var(--mut)]">
-          Found <b>{results.length}</b> places matching &ldquo;{query}&rdquo;
-        </p>
+        <div className="flex items-center justify-between text-sm text-[var(--mut)]">
+          <p>
+            Found <b className="text-[var(--ink)]">{results.length}</b> places matching &ldquo;{query}&rdquo;
+          </p>
+        </div>
       )}
 
-      {/* Results List */}
+      {/* Responsive Results Grid */}
       {results.length > 0 ? (
-        <div className="flex flex-col gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {results.map((dest) => {
             const primaryPhone =
               dest.contacts.find((c) => c.type === "phone" && c.isPrimary) ||
@@ -71,48 +82,76 @@ export default function SearchPage({ searchParams }: SearchPageProps) {
             return (
               <div
                 key={dest.id}
-                className="overflow-hidden rounded-2xl border border-[var(--line)] bg-[var(--card)] shadow-sm"
+                className="group flex flex-col justify-between overflow-hidden rounded-2xl md:rounded-3xl border border-[var(--line)] bg-[var(--card)] shadow-sm hover:shadow-md transition"
               >
-                <div className="flex flex-col gap-2 p-3">
-                  <h2 className="text-[17px] font-bold text-[var(--ink)]">
-                    {dest.name}
-                  </h2>
-                  <p className="text-[13px] text-[var(--mut)] line-clamp-2">
-                    {dest.summary}
-                  </p>
-                  <p className="text-xs text-[var(--ink)]">
-                    {primaryPhone ? <b>{primaryPhone.value}</b> : "No phone number listed"}
-                  </p>
-                  <div className="flex gap-2 pt-1">
-                    <Link
-                      href={`/places/${dest.slug}`}
-                      className="flex h-[44px] flex-1 items-center justify-center rounded-[13px] border-[1.5px] border-[var(--ink)] bg-transparent text-xs font-bold text-[var(--ink)]"
-                    >
-                      View details
-                    </Link>
-                    {primaryPhone && (
-                      <a
-                        href={`tel:${telClean}`}
-                        className="flex h-[44px] flex-1 items-center justify-center gap-1.5 rounded-[13px] bg-[var(--acc)] text-xs font-bold text-white shadow-sm"
-                      >
-                        <Phone className="h-3.5 w-3.5" />
-                        <span>Call</span>
-                      </a>
-                    )}
+                <div>
+                  {dest.media?.[0]?.url && (
+                    <div className="relative h-40 w-full overflow-hidden bg-stone-200">
+                      <img
+                        src={dest.media[0].url}
+                        alt={dest.name}
+                        className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                    </div>
+                  )}
+
+                  <div className="flex flex-col gap-2 p-4 md:p-5">
+                    <h2 className="text-lg md:text-xl font-bold text-[var(--ink)] group-hover:text-[var(--acc)] transition">
+                      {dest.name}
+                    </h2>
+
+                    <p className="text-sm text-[var(--mut)] line-clamp-2 leading-relaxed">
+                      {dest.summary}
+                    </p>
+
+                    <div className="flex items-center gap-1.5 text-xs text-[var(--mut)]">
+                      <MapPin className="h-3.5 w-3.5 text-[var(--acc)]" />
+                      <span>{dest.locality}, {dest.region}</span>
+                    </div>
+
+                    <p className="text-xs text-[var(--ink)] font-semibold pt-1">
+                      {primaryPhone ? primaryPhone.value : "No phone listed"}
+                    </p>
                   </div>
+                </div>
+
+                <div className="flex gap-2 p-4 md:p-5 pt-0">
+                  <Link
+                    href={`/places/${dest.slug}`}
+                    className="flex h-[44px] flex-1 items-center justify-center rounded-[13px] border-[1.5px] border-[var(--ink)] bg-transparent text-xs md:text-sm font-bold text-[var(--ink)] hover:bg-[var(--line)]/40 transition"
+                  >
+                    View details
+                  </Link>
+
+                  {primaryPhone && (
+                    <a
+                      href={`tel:${telClean}`}
+                      className="flex h-[44px] flex-1 items-center justify-center gap-1.5 rounded-[13px] bg-[var(--acc)] text-xs md:text-sm font-bold text-white shadow-sm hover:bg-[var(--acc-hover)] transition"
+                    >
+                      <Phone className="h-3.5 w-3.5" />
+                      <span>Call</span>
+                    </a>
+                  )}
                 </div>
               </div>
             );
           })}
         </div>
       ) : query ? (
-        <div className="rounded-2xl border border-[var(--line)] bg-[var(--card)] p-6 text-center">
-          <p className="text-sm font-semibold text-[var(--ink)]">No destinations found</p>
-          <p className="mt-1 text-xs text-[var(--mut)]">
-            Try searching for &ldquo;Castle&rdquo;, &ldquo;Resort&rdquo;, &ldquo;Accra&rdquo;, or &ldquo;National Park&rdquo;.
+        <div className="rounded-3xl border border-[var(--line)] bg-[var(--card)] p-12 text-center max-w-lg mx-auto">
+          <p className="text-base font-bold text-[var(--ink)]">No destinations found</p>
+          <p className="text-sm text-[var(--mut)] mt-1">
+            Try searching for &ldquo;Castle&rdquo;, &ldquo;Beach&rdquo;, &ldquo;Accra&rdquo;, or &ldquo;Resort&rdquo;.
           </p>
         </div>
-      ) : null}
+      ) : (
+        <div className="rounded-3xl border border-[var(--line)] bg-[var(--card)] p-10 text-center max-w-lg mx-auto">
+          <p className="text-sm text-[var(--mut)]">
+            Type in a destination name, city, or category above to search the Best of Ghana directory.
+          </p>
+        </div>
+      )}
     </div>
   );
 }
